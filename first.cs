@@ -2,7 +2,7 @@
 
 Console.Clear();
 Console.WriteLine($"Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.");
-Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
+Console.Write($"\nВведите размер массива m x n и диапазон случайных значений:");
 int m = InputNumbers("Введите m: ");
 int n = InputNumbers("Введите n: ");
 int range = InputNumbers("Введите диапазон: от 1 до ");
@@ -63,3 +63,4 @@ void WriteArray(int[,] array)
     Console.WriteLine();
   }
 }
+
